@@ -1,0 +1,25 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+    "dependencies": {
+        "express": "3.3.2",
+        "jade": "*"    ,
+        "request":  "*" ,
+        "mongodb": ">=1.2.14",
+        "nconf": ">=0.6.7",
+        "bunyan": ">=0.21.1",
+        "express-useragent": ">=0.0.7-1",
+        "when": ">=2.0.1"  ,
+        "nodeunit":"*" ,
+        "cron":"1.0.1" ,
+        "moment":"*"  ,
+        "querystring":"*"   ,
+        "async":"*",
+        "xmlreader":"*",
+        "crypto":"*"
+    }
+}

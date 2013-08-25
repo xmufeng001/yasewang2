@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b330bea1-5e3c-46ac-af8f-639fa5eee057" name="Default" comment="" />
+    <ignored path="yasewang2.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="/config.json" changelist="b330bea1-5e3c-46ac-af8f-639fa5eee057" time="1377436954608" ignored="false" />
+    <file path="$PROJECT_DIR$/../yasewang/jobs/leveling1_test.js" changelist="b330bea1-5e3c-46ac-af8f-639fa5eee057" time="1376823701294" ignored="false" />
+    <file path="/leveling1_test.js" changelist="b330bea1-5e3c-46ac-af8f-639fa5eee057" time="1376802704816" ignored="false" />
+    <file path="/leveling1.js" changelist="b330bea1-5e3c-46ac-af8f-639fa5eee057" time="1376933664396" ignored="false" />
+    <file path="/userInfo.js" changelist="b330bea1-5e3c-46ac-af8f-639fa5eee057" time="1377104155380" ignored="false" />
+    <file path="$PROJECT_DIR$/../yasewang/login_request/game1/18825111196.txt" changelist="b330bea1-5e3c-46ac-af8f-639fa5eee057" time="1376823507275" ignored="false" />
+    <file path="$PROJECT_DIR$/../yasewang/friend_battle_request/game1/18825111196 .txt" changelist="b330bea1-5e3c-46ac-af8f-639fa5eee057" time="1376823592108" ignored="false" />
+    <file path="$PROJECT_DIR$/../yasewang/ma_assistant/login_ma_assistant.txt" changelist="b330bea1-5e3c-46ac-af8f-639fa5eee057" time="1376823659037" ignored="false" />
+    <file path="$PROJECT_DIR$/../yasewang/ma_assistant/game1/18825111196.txt" changelist="b330bea1-5e3c-46ac-af8f-639fa5eee057" time="1376823681765" ignored="false" />
+    <file path="/addlv4User-game2.js" changelist="b330bea1-5e3c-46ac-af8f-639fa5eee057" time="1376831162136" ignored="false" />
+    <file path="$PROJECT_DIR$/node_modules/nconf/test/fixtures/scripts/nconf-hierarchical-load-save.js" changelist="b330bea1-5e3c-46ac-af8f-639fa5eee057" time="1377410975115" ignored="false" />
+    <file path="/game1-CBT_account.json" changelist="b330bea1-5e3c-46ac-af8f-639fa5eee057" time="1377013370915" ignored="false" />
+    <file path="/map.json" changelist="b330bea1-5e3c-46ac-af8f-639fa5eee057" time="1376898792926" ignored="false" />
+    <file path="/game2-CBT_account.json" changelist="b330bea1-5e3c-46ac-af8f-639fa5eee057" time="1377091794831" ignored="false" />
+    <file path="/leveling.js" changelist="b330bea1-5e3c-46ac-af8f-639fa5eee057" time="1377102883413" ignored="false" />
+    <file path="/leveling_all_game1.js" changelist="b330bea1-5e3c-46ac-af8f-639fa5eee057" time="1376962192958" ignored="false" />
+    <file path="/leveling_test.js" changelist="b330bea1-5e3c-46ac-af8f-639fa5eee057" time="1376962575915" ignored="false" />
+    <file path="/leveling_test_game2.js" changelist="b330bea1-5e3c-46ac-af8f-639fa5eee057" time="1377077154585" ignored="false" />
+    <file path="/cryptoUtils.js" changelist="b330bea1-5e3c-46ac-af8f-639fa5eee057" time="1377272458063" ignored="false" />
+    <file path="/clusterDemo.js" changelist="b330bea1-5e3c-46ac-af8f-639fa5eee057" time="1377401109407" ignored="false" />
+    <file path="/worker.js" changelist="b330bea1-5e3c-46ac-af8f-639fa5eee057" time="1377355332413" ignored="false" />
+    <file path="/clusterDemo2.js" changelist="b330bea1-5e3c-46ac-af8f-639fa5eee057" time="1377361095508" ignored="false" />
+    <file path="/test.json" changelist="b330bea1-5e3c-46ac-af8f-639fa5eee057" time="1377401806482" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="yasewang2" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="cluster_common_game1.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jobs/cluster_common_game1.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="73" column="54" selection-start="2469" selection-end="2482" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cluster_vip_game2.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jobs/cluster_vip_game2.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="41" selection-start="572" selection-end="572" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="game2-CBT_vip_account.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conf/game2-CBT_vip_account.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="26" selection-start="1138" selection-end="1138" vertical-scroll-proportion="-5.6025643">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="leveling.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/leveling.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="69" column="72" selection-start="3373" selection-end="3373" vertical-scroll-proportion="-0.9">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="userInfo.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/userInfo.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="141" column="104" selection-start="5691" selection-end="5691" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.json" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="54" selection-start="1136" selection-end="1136" vertical-scroll-proportion="0.46341464">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="game1-CBT_common_account.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conf/game1-CBT_common_account.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="82" column="41" selection-start="4955" selection-end="5073" vertical-scroll-proportion="31.448717">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="game2-CBT_common_account.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conf/game2-CBT_common_account.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="77" column="91" selection-start="4800" selection-end="4800" vertical-scroll-proportion="-4.6025643">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="game1-CBT_vip_account.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conf/game1-CBT_vip_account.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="75" column="33" selection-start="4728" selection-end="4728" vertical-scroll-proportion="-3.1410255">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="game2-CBT_lv4UserList.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conf/game2-CBT_lv4UserList.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/clusterDemo2.js" />
+        <option value="$PROJECT_DIR$/conf/game1-CBT_account.json" />
+        <option value="$PROJECT_DIR$/clusterDemo.js" />
+        <option value="$PROJECT_DIR$/conf/test.json" />
+        <option value="$PROJECT_DIR$/jobs/leveling.js" />
+        <option value="$PROJECT_DIR$/jobs/cluster_common_game1.js" />
+        <option value="$PROJECT_DIR$/jobs/cluster_common_game2.js" />
+        <option value="$PROJECT_DIR$/jobs/cluster_vip_game1.js" />
+        <option value="$PROJECT_DIR$/jobs/cluster_vip_game2.js" />
+        <option value="$PROJECT_DIR$/conf/game1-CBT_common_account.json" />
+        <option value="$PROJECT_DIR$/core/userInfo.js" />
+        <option value="$PROJECT_DIR$/core/leveling.js" />
+        <option value="$PROJECT_DIR$/conf/game2-CBT_vip_account.json" />
+        <option value="$PROJECT_DIR$/conf/game2-CBT_common_account.json" />
+        <option value="$PROJECT_DIR$/conf/game1-CBT_vip_account.json" />
+        <option value="$PROJECT_DIR$/config.json" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents ProjectPane="true" />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yasewang2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yasewang2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yasewang2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yasewang2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yasewang2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jobs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yasewang2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yasewang2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yasewang2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yasewang2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="conf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/jobs/cluster_vip_game1.js" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Wind\Documents\GitHub\yasewang2\conf" />
+      <recent name="C:\Users\Wind\Documents\GitHub\yasewang2\jobs" />
+      <recent name="C:\Users\Wind\Documents\GitHub\yasewang2" />
+      <recent name="D:\gamewordspace\mul\yasewang2" />
+      <recent name="D:\gamewordspace\mul\yasewang2\jobs" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Wind\Documents\GitHub\yasewang2\core" />
+      <recent name="C:\Users\Wind\Documents\GitHub\yasewang2" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.cluster_vip_game1.js">
+    <configuration default="false" name="addlv4User-game2.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="D:/nodejs/node" path-to-js-file="addlv4User-game2.js" working-dir="$PROJECT_DIR$/jobs">
+      <RunnerSettings RunnerId="NodeJS.run" />
+      <ConfigurationWrapper RunnerId="NodeJS.run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="addlv4User-game1.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="D:/nodejs/node" path-to-js-file="addlv4User-game1.js" working-dir="$PROJECT_DIR$/jobs">
+      <RunnerSettings RunnerId="NodeJS.run" />
+      <ConfigurationWrapper RunnerId="NodeJS.run" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSRemoteDebug" factoryName="Node.js Remote Debug">
+      <node-js-remote-debug />
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="$PROJECT_DIR$">
+      <method />
+    </configuration>
+    <configuration default="false" name="cluster_common_game1.js" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="D:/nodejs/node" path-to-js-file="cluster_common_game1.js" working-dir="$PROJECT_DIR$/jobs">
+      <RunnerSettings RunnerId="NodeJS.run" />
+      <ConfigurationWrapper RunnerId="NodeJS.run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="cluster_common_game2.js" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="D:/nodejs/node" path-to-js-file="cluster_common_game2.js" working-dir="$PROJECT_DIR$/jobs">
+      <RunnerSettings RunnerId="NodeJS.run" />
+      <ConfigurationWrapper RunnerId="NodeJS.run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="cluster_vip_game1.js" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="D:/nodejs/node" path-to-js-file="cluster_vip_game1.js" working-dir="$PROJECT_DIR$/jobs">
+      <RunnerSettings RunnerId="NodeJS.run" />
+      <ConfigurationWrapper RunnerId="NodeJS.run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="cluster_vip_game2.js" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="D:/nodejs/node" path-to-js-file="cluster_vip_game2.js" working-dir="$PROJECT_DIR$/jobs">
+      <RunnerSettings RunnerId="NodeJS.run" />
+      <ConfigurationWrapper RunnerId="NodeJS.run" />
+      <method />
+    </configuration>
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Node.js.cluster_common_game1.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.cluster_common_game2.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.cluster_vip_game1.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.cluster_vip_game2.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.addlv4User-game2.js" />
+      <item index="5" class="java.lang.String" itemvalue="Node.js.addlv4User-game1.js" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.addlv4User-game2.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.addlv4User-game1.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b330bea1-5e3c-46ac-af8f-639fa5eee057" name="Default" comment="" />
+      <created>1376800895584</created>
+      <updated>1376800895584</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.6806137" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.47021613" sideWeight="0.7265625" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39732143" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32994923" sideWeight="0.6806137" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914925" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2734375" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="UPDATE_FILTER_SCOPE_NAME" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="13" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/.WebStorm6/system/extLibs/nodejs-v0.10.13-src/core-modules-sources/lib/child_process.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="427" column="144" selection-start="11703" selection-end="11703" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app-conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="69" selection-start="139" selection-end="148" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/test.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="25" selection-start="204" selection-end="204" vertical-scroll-proportion="-4.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/game1-CBT_lv4UserList.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jobs/cluster_common_game2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="59" selection-start="0" selection-end="2808" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jobs/cluster_vip_game1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="65" selection-start="0" selection-end="2805" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jobs/cluster_vip_game2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="41" selection-start="572" selection-end="572" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jobs/cluster_common_game1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="54" selection-start="2469" selection-end="2482" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/userInfo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="141" column="104" selection-start="5691" selection-end="5691" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/leveling.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="72" selection-start="3373" selection-end="3373" vertical-scroll-proportion="-0.9">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/game2-CBT_vip_account.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="26" selection-start="1138" selection-end="1138" vertical-scroll-proportion="-5.6025643">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/game2-CBT_lv4UserList.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/game2-CBT_common_account.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="91" selection-start="4800" selection-end="4800" vertical-scroll-proportion="-4.6025643">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/game1-CBT_common_account.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="82" column="41" selection-start="4955" selection-end="5073" vertical-scroll-proportion="31.448717">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/game1-CBT_vip_account.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="33" selection-start="4728" selection-end="4728" vertical-scroll-proportion="-3.1410255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="54" selection-start="1136" selection-end="1136" vertical-scroll-proportion="0.46341464">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+
