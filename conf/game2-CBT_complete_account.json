@@ -1,0 +1,34 @@
+{
+    "accounts": [
+        {
+            "login_id": "18620662086",
+            "password": "shensi1999",
+            "status": 100,
+            "host": "game2-CBT.ma.sdo.com:10001",
+            "lick": true,
+            "lick_more": false,
+            "lick_card_post": "C=hm0tKExNQqGpEbefRbt53D7OpI2p%2FrQKvjqAxiEVz1%2FHOGvWF10MZHbPBHC7Jg1QZAYkDH7v0n9Y%0A%2FboRFRm9k83hsHZFRs%2ByfEqapAl7vSI%3D%0A&lr=WBSA2E4yovRzviVjN5ezJg%3D%3D%0A",
+            "bolo": false,
+            "bolo_card_post": "C=JWogiAg8fp3Hzogd3n46aT7OpI2p%2FrQKvjqAxiEVz1%2FHOGvWF10MZHbPBHC7Jg1QZAYkDH7v0n9Y%0A%2FboRFRm9k83hsHZFRs%2ByfEqapAl7vSI%3D%0A&lr=Mp7BXX9jXggABY6j%2FzmvzA%3D%3D%0A",
+            "friend_battle": true,
+            "friend_battle_card_post": "C=JWogiAg8fp3Hzogd3n46aT7OpI2p%2FrQKvjqAxiEVz1%2FHOGvWF10MZHbPBHC7Jg1QZAYkDH7v0n9Y%0A%2FboRFRm9k83hsHZFRs%2ByfEqapAl7vSI%3D%0A&lr=Mp7BXX9jXggABY6j%2FzmvzA%3D%3D%0A",
+            "map": true,
+            "ap_water": false,
+            "bc_water": false
+        },{
+            "login_id": "13968513557",
+            "password": "qiyuan001",
+            "status": 0,
+            "host": "game2-CBT.ma.sdo.com:10001",
+            "lick": true,
+            "lick_more": false,
+            "lick_card_post": "C=zY6jrC9hbiMPJI2%2BMF9kcIx7rw%2B0vUKp%2Fpc%2BN%2B2sFH3zGeMHnPJkwThx3cDEbfVXEAjoR9k2p7EF%0A6D31AT9oQ2PWUTs9pdB0p4%2FNZmMBHEQ%3D%0A&lr=jHY8aL8AMTeM9tfDHIeWVA%3D%3D%0A",
+            "bolo": false,
+            "bolo_card_post": "C=4boaaGunCX59%2Flws%2FcxJKl1e1JDQWXpw%2BnNYr6pXx58%2BzqSNqf60Cr46gMYhFc9fxzhr1hddDGR2%0AzwRwuyYNUHQuqVfeXjnTipa8fSg1rmA%3D%0A&lr=uamGddXDtNyVlRKmHkZz3g%3D%3D%0A",
+            "friend_battle": true,
+            "friend_battle_card_post": "C=XNgb5sQr8NC6xNXNcJWgRunXyeflHVe1cfrTryQgotmMe68PtL1Cqf6XPjftrBR98xnjB5zyZME4%0Acd3AxG31V7Ud7OgXFbvcLSk8HTXvh3o%3D%0A&lr=R%2BKpzPvOVK2dLKuABOYWrw%3D%3D%0A",
+            "map": true,
+            "ap_water": false,
+            "bc_water": false
+        }]
+}

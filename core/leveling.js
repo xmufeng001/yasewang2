@@ -48,7 +48,7 @@ var startJob = function (userConf, startTime, timeOutMinutes, onTimeOut) {
                             " lv:" + userData["town_level"] + ",bc:[" + bc + "/" + max_bc +
                             "],ap:[" + ap + "/" + max_ap + "]");
 
-                        if (userConf["map"] && ap > 3) {
+                        if (userConf["map"] && ap > 2) {
                             explore(userConf, userData);
                         }
                         var importantFairy = userInfo.getMostImportantFairybattle(userData);
