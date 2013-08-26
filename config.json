@@ -3,9 +3,9 @@
         "proxy":false,
         "proxyAddress": "localhost",
         "proxyPort": "8888",
-        "today_map": "area_id=S2M9miVb3uqI5tSW0XQdGQ%3D%3D%0A&auto_build=HJQrxs%2FKaF3hyO81WS2jdA%3D%3D%0A&floor_id=vEVHSbIy52rSa1oy06FUIg%3D%3D%0A" ,
+        "today_map": "area_id=tuxL1%2FX0mutGXsZtPFMXZA%3D%3D%0A&auto_build=HJQrxs%2FKaF3hyO81WS2jdA%3D%3D%0A&floor_id=vEVHSbIy52rSa1oy06FUIg%3D%3D%0A" ,
         "map": {
-            "1": ["area_id=tuxL1%2FX0mutGXsZtPFMXZA%3D%3D%0A&auto_build=HJQrxs%2FKaF3hyO81WS2jdA%3D%3D%0A&floor_id=HJQrxs%2FKaF3hyO81WS2jdA%3D%3D%0A"],
+            "1": ["area_id=tuxL1%2FX0mutGXsZtPFMXZA%3D%3D%0A&auto_build=HJQrxs%2FKaF3hyO81WS2jdA%3D%3D%0A&floor_id=HJQrxs%2FKaF3hyO81WS2jdA%3D%3D%0A","area_id=tuxL1%2FX0mutGXsZtPFMXZA%3D%3D%0A&auto_build=HJQrxs%2FKaF3hyO81WS2jdA%3D%3D%0A&floor_id=vEVHSbIy52rSa1oy06FUIg%3D%3D%0A"],
             "2": ["area_id=JfZH6W240Ri%2BC5cFJm%2FuAQ%3D%3D%0A&auto_build=HJQrxs%2FKaF3hyO81WS2jdA%3D%3D%0A&floor_id=HJQrxs%2FKaF3hyO81WS2jdA%3D%3D%0A"],
             "3": ["area_id=N%2BvTuVXRruiuVevIhjtn3Q%3D%3D%0A&auto_build=HJQrxs%2FKaF3hyO81WS2jdA%3D%3D%0A&floor_id=HJQrxs%2FKaF3hyO81WS2jdA%3D%3D%0A"],
             "4": ["area_id=YacmV8ZFnO5UHbwfi%2B%2BJ9g%3D%3D%0A&auto_build=HJQrxs%2FKaF3hyO81WS2jdA%3D%3D%0A&floor_id=HJQrxs%2FKaF3hyO81WS2jdA%3D%3D%0A"],

@@ -67,25 +67,25 @@ var startJob = function (userConf, startTime, timeOutMinutes, onTimeOut) {
                             ], function (err, result) {
                                 console.error(error);
                             });
-                        } else if (valueFairy&&userConf["lick_more"] && bc > 80){
-                            async.waterfall([
-                                function (callback) {
-                                    savedeckcard(userConf, userData, "lick_card_post", callback);
-                                },
-                                function (userConf, userData, callback) {
-                                    console.log(userConf["login_id"]+"开始无聊舔怪" + ":fairybattle:"+valueFairy.serial_id+" lv:"+valueFairy.lv+" "+valueFairy.name);
-                                    fairybattle(userConf, userData,valueFairy);
-                                }
-                            ], function (err, result) {
-                                console.error(error);
-                            });
-                        } else if(valueFairy&&userConf["bolo"] && bc > 57&& parseInt(userData["ex_gauge"])>90){
+                        }  else if(valueFairy&&userConf["bolo"] && bc > 57&& parseInt(userData["ex_gauge"])>90){
                             async.waterfall([
                                 function (callback) {
                                     console.log(userConf["login_id"]+"开始大刀" + ":fairybattle:"+valueFairy.serial_id+" lv:"+valueFairy.lv+" "+valueFairy.name);
                                     savedeckcard(userConf, userData, "bolo_card_post", callback);
                                 },
                                 function (userConf, userData, callback) {
+                                    fairybattle(userConf, userData,valueFairy);
+                                }
+                            ], function (err, result) {
+                                console.error(error);
+                            });
+                        }else if (valueFairy&&userConf["lick_more"] && bc > 80){
+                            async.waterfall([
+                                function (callback) {
+                                    savedeckcard(userConf, userData, "lick_card_post", callback);
+                                },
+                                function (userConf, userData, callback) {
+                                    console.log(userConf["login_id"]+"开始无聊舔怪" + ":fairybattle:"+valueFairy.serial_id+" lv:"+valueFairy.lv+" "+valueFairy.name);
                                     fairybattle(userConf, userData,valueFairy);
                                 }
                             ], function (err, result) {
