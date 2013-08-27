@@ -7,12 +7,12 @@
         "lick": true,
         "lick_more": true,
         "lick_card_post": "C=tWleZez2nZUKPaDEL%2Frwj4x7rw%2B0vUKp%2Fpc%2BN%2B2sFH3zGeMHnPJkwThx3cDEbfVXEAjoR9k2p7EF%0A6D31AT9oQ2PWUTs9pdB0p4%2FNZmMBHEQ%3D%0A&lr=hyqqmU6DH%2F0mrJo7GJvB4A%3D%3D%0A",
-        "bolo": true,
+        "bolo": false,
         "bolo_card_post": "C=ZtMIV5M%2BRjuRpxXZ2M14ktRPoQ33s8jJPoDHoCqIYQQ%2BzqSNqf60Cr46gMYhFc9fxzhr1hddDGR2%0AzwRwuyYNUHQuqVfeXjnTipa8fSg1rmA%3D%0A&lr=jjyXneIU712DqNvH19jpDw%3D%3D%0A",
         "friend_battle": false,
         "friend_battle_card_post": "C=N5SEZya1jmwtG6rVygGfBD7OpI2p%2FrQKvjqAxiEVz1%2FHOGvWF10MZHbPBHC7Jg1QZAYkDH7v0n9Y%0A%2FboRFRm9k83hsHZFRs%2ByfEqapAl7vSI%3D%0A&lr=DfQhaUCdykZM2R9PwMvhtQ%3D%3D%0A",
         "map": true,
-        "ap_water": true,
+        "ap_water": false,
         "bc_water": false
     }
         ,
@@ -82,7 +82,7 @@
         },{
             "login_id": "18600655339",
             "password": "gaomaodi",
-            "status": 0,
+            "status": 7,
             "host": "game1-CBT.ma.sdo.com:10001",
             "lick": true,
             "lick_more": false,
@@ -136,21 +136,6 @@
             "bolo_card_post": "C=%2Bc2G%2FjHs0rlbd1PP%2BdbF7lEEJtIawS9bdDRhHl%2BzckXHOGvWF10MZHbPBHC7Jg1QZAYkDH7v0n9Y%0A%2FboRFRm9kz7OpI2p%2FrQKvjqAxiEVz1%2FOhFcPcsT%2FRk7locCZDQT1%0A&lr=fDbrWnWHMNNE0gxpzmDVYA%3D%3D%0A",
             "friend_battle": true,
             "friend_battle_card_post": "C=w6dLw0V9Vh29WjR1DPzdpj7OpI2p%2FrQKvjqAxiEVz1%2FHOGvWF10MZHbPBHC7Jg1QZAYkDH7v0n9Y%0A%2FboRFRm9k83hsHZFRs%2ByfEqapAl7vSI%3D%0A&lr=4%2B4hw0agSMudO1cxBzVKfw%3D%3D%0A",
-            "map": true,
-            "ap_water": false,
-            "bc_water": false
-        },{
-            "login_id": "18795920357",
-            "password": "13951929427",
-            "status": 7,
-            "host": "game1-CBT.ma.sdo.com:10001",
-            "lick": true,
-            "lick_more": false,
-            "lick_card_post": "C=x8vaLYoSza%2Fa9P7AWzK8fT7OpI2p%2FrQKvjqAxiEVz1%2FHOGvWF10MZHbPBHC7Jg1QZAYkDH7v0n9Y%0A%2FboRFRm9k83hsHZFRs%2ByfEqapAl7vSI%3D%0A&lr=y9NfREDT9FRXdTYS%2F8glXw%3D%3D%0A",
-            "bolo": false,
-            "bolo_card_post": "C=jsbalqQbg1JtYsTyxUq3BR5q0IKyFD0iOqA2vgTmTjrHOGvWF10MZHbPBHC7Jg1QZAYkDH7v0n9Y%0A%2FboRFRm9kz7OpI2p%2FrQKvjqAxiEVz1%2FOhFcPcsT%2FRk7locCZDQT1%0A&lr=XaVt2a2bETPw5PQl4WhdXw%3D%3D%0A",
-            "friend_battle": false,
-            "friend_battle_card_post": "C=x8vaLYoSza%2Fa9P7AWzK8fT7OpI2p%2FrQKvjqAxiEVz1%2FHOGvWF10MZHbPBHC7Jg1QZAYkDH7v0n9Y%0A%2FboRFRm9k83hsHZFRs%2ByfEqapAl7vSI%3D%0A&lr=y9NfREDT9FRXdTYS%2F8glXw%3D%3D%0A",
             "map": true,
             "ap_water": false,
             "bc_water": false
