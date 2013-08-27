@@ -374,7 +374,7 @@ var fairyselect = function (userConf, userData, callback) {
 
 
                         } catch (e) {
-                            console.log(e);
+                            console.log(userConf["login_id"]+e);
                         }
                         callback(null, userConf, userData);
 
