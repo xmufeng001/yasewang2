@@ -15,21 +15,6 @@
         "ap_water": false,
         "bc_water": false
     },{
-            "login_id": "13670251892",
-            "password": "19961225",
-            "status": 7,
-            "host": "game2-CBT.ma.sdo.com:10001",
-            "lick": true,
-            "lick_more": false,
-            "lick_card_post": "C=6LlK2YI3fP5V%2B9LEZNo%2BCj7OpI2p%2FrQKvjqAxiEVz1%2FHOGvWF10MZHbPBHC7Jg1QZAYkDH7v0n9Y%0A%2FboRFRm9k83hsHZFRs%2ByfEqapAl7vSI%3D%0A&lr=yXCKA%2FfT7swFLAleDu%2BXZg%3D%3D%0A",
-            "bolo": false,
-            "bolo_card_post": "C=ezePxelBr%2Fxz5xrkGkxDgO0W8evo8U5CzwqXPzBcPD6Me68PtL1Cqf6XPjftrBR98xnjB5zyZME4%0Acd3AxG31V7Ud7OgXFbvcLSk8HTXvh3o%3D%0A&lr=yXtCaovNPZxNfqu%2FuVXLvw%3D%3D%0A",
-            "friend_battle": true,
-            "friend_battle_card_post": "C=6LlK2YI3fP5V%2B9LEZNo%2BCj7OpI2p%2FrQKvjqAxiEVz1%2FHOGvWF10MZHbPBHC7Jg1QZAYkDH7v0n9Y%0A%2FboRFRm9k83hsHZFRs%2ByfEqapAl7vSI%3D%0A&lr=yXCKA%2FfT7swFLAleDu%2BXZg%3D%3D%0A",
-            "map": true,
-            "ap_water": false,
-            "bc_water": false
-        },{
             "login_id": "15195905183",
             "password": "79499888",
             "status": 7,
@@ -44,5 +29,20 @@
             "map": true,
             "ap_water": false,
             "bc_water": false
-        }]
+        },{
+        "login_id": "13590611989",
+        "password": "12345600",
+        "status": 7,
+        "host": "game2-CBT.ma.sdo.com:10001",
+        "lick": true,
+        "lick_more": false,
+        "lick_card_post": "C=9UJdXQONJTNJhR4tqXBG1z7OpI2p%2FrQKvjqAxiEVz1%2FHOGvWF10MZHbPBHC7Jg1QZAYkDH7v0n9Y%0A%2FboRFRm9k83hsHZFRs%2ByfEqapAl7vSI%3D%0A&lr=DQcxLIezRthVfIeG4dZXhA%3D%3D%0A",
+        "bolo": false,
+        "bolo_card_post": "C=9UJdXQONJTNJhR4tqXBG1z7OpI2p%2FrQKvjqAxiEVz1%2FHOGvWF10MZHbPBHC7Jg1QZAYkDH7v0n9Y%0A%2FboRFRm9k83hsHZFRs%2ByfEqapAl7vSI%3D%0A&lr=DQcxLIezRthVfIeG4dZXhA%3D%3D%0A",
+        "friend_battle": true,
+        "friend_battle_card_post": "C=CwrWz2NL3YKiUaA7PjFXuD7OpI2p%2FrQKvjqAxiEVz1%2FHOGvWF10MZHbPBHC7Jg1QZAYkDH7v0n9Y%0A%2FboRFRm9k83hsHZFRs%2ByfEqapAl7vSI%3D%0A&lr=qSIRE75BkfOm413v%2BXJJNw%3D%3D%0A",
+        "map": true,
+        "ap_water": false,
+        "bc_water": false
+    }]
 }

@@ -27,6 +27,7 @@
     <file path="/worker.js" changelist="b330bea1-5e3c-46ac-af8f-639fa5eee057" time="1377355332413" ignored="false" />
     <file path="/clusterDemo2.js" changelist="b330bea1-5e3c-46ac-af8f-639fa5eee057" time="1377361095508" ignored="false" />
     <file path="/test.json" changelist="b330bea1-5e3c-46ac-af8f-639fa5eee057" time="1377401806482" ignored="false" />
+    <file path="$USER_HOME$/Desktop/firstDemo/test.js" changelist="b330bea1-5e3c-46ac-af8f-639fa5eee057" time="1377763926794" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,46 +47,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="test.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/conf/test.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="17" selection-start="19" selection-end="1053" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="game1-CBT_month_account.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/conf/game1-CBT_month_account.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="98" selection-start="1038" selection-end="1038" vertical-scroll-proportion="-10.857142">
+            <state line="48" column="27" selection-start="3129" selection-end="3129" vertical-scroll-proportion="-4.120482">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.json" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="config.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="21" selection-start="36" selection-end="36" vertical-scroll-proportion="0.04589372">
+            <state line="5" column="147" selection-start="251" selection-end="251" vertical-scroll-proportion="-3.4482758">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jobs/test.js">
+      <file leaf-file-name="game1-CBT_common_account.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conf/game1-CBT_common_account.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="53" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0">
+            <state line="30" column="24" selection-start="1859" selection-end="1859" vertical-scroll-proportion="-3.6024096">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="game1-CBT_vip_account.json" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="leveling.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/leveling.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="236" column="29" selection-start="11190" selection-end="11190" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="game2-CBT_common_account.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conf/game2-CBT_common_account.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="40" column="188" selection-start="2476" selection-end="2476" vertical-scroll-proportion="-4.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="game1-CBT_complete_account.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conf/game1-CBT_complete_account.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="94" column="9" selection-start="5768" selection-end="5768" vertical-scroll-proportion="-5.445783">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="game2-CBT_complete_account.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conf/game2-CBT_complete_account.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="62" column="9" selection-start="3926" selection-end="3926" vertical-scroll-proportion="-5.445783">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="game1-CBT_vip_account.json" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/conf/game1-CBT_vip_account.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="83" column="45" selection-start="5055" selection-end="5055" vertical-scroll-proportion="0.0">
+            <state line="20" column="37" selection-start="1079" selection-end="1079" vertical-scroll-proportion="0.5691057">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="game2-CBT_vip_account.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conf/game2-CBT_vip_account.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="39" column="64" selection-start="2100" selection-end="2100" vertical-scroll-proportion="-9.397591">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cluster_month_game1.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jobs/cluster_month_game1.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="73" column="86" selection-start="2513" selection-end="2513" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -103,20 +149,20 @@
       <list>
         <option value="$PROJECT_DIR$/jobs/cluster_vip_game1.js" />
         <option value="$PROJECT_DIR$/jobs/cluster_vip_game2.js" />
-        <option value="$PROJECT_DIR$/conf/game2-CBT_vip_account.json" />
         <option value="$PROJECT_DIR$/core/userInfo.js" />
-        <option value="$PROJECT_DIR$/conf/game2-CBT_common_account.json" />
-        <option value="$PROJECT_DIR$/conf/game1-CBT_complete_account.json" />
-        <option value="$PROJECT_DIR$/conf/game1-CBT_common_account.json" />
-        <option value="$PROJECT_DIR$/conf/game2-CBT_complete_account.json" />
         <option value="$PROJECT_DIR$/conf/game1-CBT_vip_account2.json" />
-        <option value="$PROJECT_DIR$/jobs/cluster_month_game1.js" />
         <option value="$PROJECT_DIR$/core/leveling.js" />
         <option value="$PROJECT_DIR$/jobs/test.js" />
-        <option value="$PROJECT_DIR$/conf/game1-CBT_month_account.json" />
         <option value="$PROJECT_DIR$/conf/test.json" />
-        <option value="$PROJECT_DIR$/conf/game1-CBT_vip_account.json" />
         <option value="$PROJECT_DIR$/config.json" />
+        <option value="$PROJECT_DIR$/conf/game1-CBT_month_account.json" />
+        <option value="$PROJECT_DIR$/conf/game1-CBT_common_account.json" />
+        <option value="$PROJECT_DIR$/jobs/cluster_month_game1.js" />
+        <option value="$PROJECT_DIR$/conf/game1-CBT_complete_account.json" />
+        <option value="$PROJECT_DIR$/conf/game2-CBT_complete_account.json" />
+        <option value="$PROJECT_DIR$/conf/game2-CBT_common_account.json" />
+        <option value="$PROJECT_DIR$/conf/game1-CBT_vip_account.json" />
+        <option value="$PROJECT_DIR$/conf/game2-CBT_vip_account.json" />
       </list>
     </option>
   </component>
@@ -220,8 +266,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/firstDemo" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/jobs/test.js" />
     <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
@@ -237,7 +283,7 @@
       <recent name="C:\Users\Wind\Documents\GitHub\yasewang2" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.test.js">
+  <component name="RunManager" selected="Node.js.cluster_vip_game2.js">
     <configuration default="false" name="addlv4User-game2.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="D:/nodejs/node" path-to-js-file="addlv4User-game2.js" working-dir="$PROJECT_DIR$/jobs">
       <RunnerSettings RunnerId="NodeJS.run" />
       <ConfigurationWrapper RunnerId="NodeJS.run" />
@@ -273,7 +319,7 @@
       <ConfigurationWrapper RunnerId="NodeJS.run" />
       <method />
     </configuration>
-    <configuration default="false" name="cluster_vip_game1.js" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="D:/nodejs/node" path-to-js-file="cluster_vip_game1.js" working-dir="$PROJECT_DIR$/jobs">
+    <configuration default="false" name="cluster_vip_game1.js" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="cluster_vip_game1.js" working-dir="$PROJECT_DIR$/jobs">
       <RunnerSettings RunnerId="NodeJS.run" />
       <ConfigurationWrapper RunnerId="NodeJS.run" />
       <method />
@@ -283,12 +329,12 @@
       <ConfigurationWrapper RunnerId="NodeJS.run" />
       <method />
     </configuration>
-    <configuration default="false" name="cluster_month_game1.js" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="D:/nodejs/node" path-to-js-file="cluster_month_game1.js" working-dir="$PROJECT_DIR$/jobs">
+    <configuration default="false" name="cluster_month_game1.js" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="cluster_month_game1.js" working-dir="$PROJECT_DIR$/jobs">
       <RunnerSettings RunnerId="NodeJS.run" />
       <ConfigurationWrapper RunnerId="NodeJS.run" />
       <method />
     </configuration>
-    <configuration default="false" name="test.js" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="D:/nodejs/node" path-to-js-file="test.js" working-dir="$PROJECT_DIR$/jobs">
+    <configuration default="false" name="test.js" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="test.js" working-dir="$PROJECT_DIR$/jobs">
       <RunnerSettings RunnerId="NodeJS.run" />
       <ConfigurationWrapper RunnerId="NodeJS.run" />
       <method />
@@ -326,11 +372,11 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.6806137" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23036373" sideWeight="0.7120536" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2299578" sideWeight="0.71237457" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39732143" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32994923" sideWeight="0.6806137" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28794643" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28762543" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -404,32 +450,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/conf/game2-CBT_common_account.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="5" selection-start="925" selection-end="925" vertical-scroll-proportion="-0.056420233">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conf/game2-CBT_lv4UserList.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conf/game2-CBT_vip_account.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="111" selection-start="531" selection-end="531" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jobs/cluster_common_game2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="91" selection-start="2697" selection-end="2697" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/conf/game1-CBT_lv4UserList.json">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="14" selection-start="14" selection-end="14" vertical-scroll-proportion="-0.0">
@@ -452,54 +472,84 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conf/game1-CBT_common_account.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="144" column="24" selection-start="9052" selection-end="9052" vertical-scroll-proportion="-57.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/leveling.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="211" column="26" selection-start="10445" selection-end="10450" vertical-scroll-proportion="0.31934306" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jobs/cluster_vip_game1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.55973816" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jobs/test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="53" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/conf/test.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="17" selection-start="19" selection-end="1053" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conf/game1-CBT_vip_account.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="45" selection-start="5055" selection-end="5055" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conf/game1-CBT_month_account.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="98" selection-start="1038" selection-end="1038" vertical-scroll-proportion="-10.857142">
+        <state line="1" column="17" selection-start="19" selection-end="1057" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="21" selection-start="36" selection-end="36" vertical-scroll-proportion="0.04589372">
+        <state line="5" column="147" selection-start="251" selection-end="251" vertical-scroll-proportion="-3.4482758">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/leveling.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="236" column="29" selection-start="11190" selection-end="11190" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/game1-CBT_month_account.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="27" selection-start="3129" selection-end="3129" vertical-scroll-proportion="-4.120482">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jobs/cluster_month_game1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="86" selection-start="2513" selection-end="2513" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/game1-CBT_common_account.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="24" selection-start="1859" selection-end="1859" vertical-scroll-proportion="-3.6024096">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/game2-CBT_complete_account.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="9" selection-start="3926" selection-end="3926" vertical-scroll-proportion="-5.445783">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/game1-CBT_complete_account.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="94" column="9" selection-start="5768" selection-end="5768" vertical-scroll-proportion="-5.445783">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/game2-CBT_common_account.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="188" selection-start="2476" selection-end="2476" vertical-scroll-proportion="-4.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/game2-CBT_vip_account.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="64" selection-start="2100" selection-end="2100" vertical-scroll-proportion="-9.397591">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/game1-CBT_vip_account.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="37" selection-start="1079" selection-end="1079" vertical-scroll-proportion="0.5691057">
           <folding />
         </state>
       </provider>

@@ -71,11 +71,10 @@ if (cluster.isMaster) {
 } else {
     process.on('message', function(userConf) {
         if(userConf.status==7){
-            var timeOutMinutes=userConf["resetInterval"]?userConf["resetInterval"]:-30;
+            var timeOutMinutes=userConf["resetInterval"]?userConf["resetInterval"]:-300;
             leveling.startJob(userConf,new Date(),timeOutMinutes,function(startTaskTime){
                 console.log(userConf["login_id"]+"  "+startTaskTime+"'s task is complete");
                 process.send({ cmd: 'reset' });
-                return;
             });
         }
     });
