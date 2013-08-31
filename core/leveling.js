@@ -92,7 +92,7 @@ var startJob = function (userConf, startTime, timeOutMinutes, onTimeOut) {
                                 console.error(error);
                             });
                         }
-                        else if(userConf["friend_battle"] && bc > 25){
+                        else if((userConf["friend_battle"] && bc > 25)||(userConf["friend_battle"] &&!userConf["lick"] && bc > 4)){
                             async.waterfall([
                                 function (callback) {
                                     savedeckcard(userConf, userData, "friend_battle_card_post", callback);
