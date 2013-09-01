@@ -3,7 +3,7 @@
         "proxy":false,
         "proxyAddress": "localhost",
         "proxyPort": "8888",
-        "today_map": "area_id=S2M9miVb3uqI5tSW0XQdGQ%3D%3D%0A&auto_build=HJQrxs%2FKaF3hyO81WS2jdA%3D%3D%0A&floor_id=vEVHSbIy52rSa1oy06FUIg%3D%3D%0A" ,
+        "today_map": "area_id=N03e3kqbX8eEoIdv1LhN9A%3D%3D%0A&auto_build=HJQrxs%2FKaF3hyO81WS2jdA%3D%3D%0A&floor_id=HJQrxs%2FKaF3hyO81WS2jdA%3D%3D%0A" ,
         "map": {
             "1": ["area_id=tuxL1%2FX0mutGXsZtPFMXZA%3D%3D%0A&auto_build=HJQrxs%2FKaF3hyO81WS2jdA%3D%3D%0A&floor_id=HJQrxs%2FKaF3hyO81WS2jdA%3D%3D%0A","area_id=tuxL1%2FX0mutGXsZtPFMXZA%3D%3D%0A&auto_build=HJQrxs%2FKaF3hyO81WS2jdA%3D%3D%0A&floor_id=vEVHSbIy52rSa1oy06FUIg%3D%3D%0A"],
             "2": ["area_id=JfZH6W240Ri%2BC5cFJm%2FuAQ%3D%3D%0A&auto_build=HJQrxs%2FKaF3hyO81WS2jdA%3D%3D%0A&floor_id=HJQrxs%2FKaF3hyO81WS2jdA%3D%3D%0A"],
@@ -12,7 +12,7 @@
             "5": ["area_id=l1a5XJneQxnNNStLducLqw%3D%3D%0A&auto_build=HJQrxs%2FKaF3hyO81WS2jdA%3D%3D%0A&floor_id=HJQrxs%2FKaF3hyO81WS2jdA%3D%3D%0A"],
             "6": [""],
             "7": [""],
-            "summer": ["area_id=S2M9miVb3uqI5tSW0XQdGQ%3D%3D%0A&auto_build=HJQrxs%2FKaF3hyO81WS2jdA%3D%3D%0A&floor_id=HJQrxs%2FKaF3hyO81WS2jdA%3D%3D%0A","area_id=S2M9miVb3uqI5tSW0XQdGQ%3D%3D%0A&auto_build=HJQrxs%2FKaF3hyO81WS2jdA%3D%3D%0A&floor_id=vEVHSbIy52rSa1oy06FUIg%3D%3D%0A"]
+            "school": ["area_id=N03e3kqbX8eEoIdv1LhN9A%3D%3D%0A&auto_build=HJQrxs%2FKaF3hyO81WS2jdA%3D%3D%0A&floor_id=HJQrxs%2FKaF3hyO81WS2jdA%3D%3D%0A"]
         }
     }
 }
