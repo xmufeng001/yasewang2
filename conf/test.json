@@ -1,18 +1,19 @@
 {
     "accounts": [{
-        "login_id": "13868879028",
-        "password": "11223344",
-        "login_paramters" :"login_id=fSjTy95XnJKV6KW8UJRHEg%3D%3D%0A&password=772eagCivLEwNyd8fJqKUg%3D%3D%0A",
+        "login_id": "18988999198",
+        "password": "qwer1234",
         "status": 7,
         "host": "game1-CBT.ma.sdo.com:10001",
-        "lick": true,
-        "lick_more": true,
+        "lick": false,
+        "lick_awaken_only": true,
+        "lick_more": false,
         "lick_card_post": "C=3Zti67BLBPj00fNL1IoLLD7OpI2p%2FrQKvjqAxiEVz1%2FHOGvWF10MZHbPBHC7Jg1QZAYkDH7v0n9Y%0A%2FboRFRm9k83hsHZFRs%2ByfEqapAl7vSI%3D%0A&lr=9NRGV4tm7YcdBRwM%2Fuclcw%3D%3D%0A",
-        "bolo": true,
+        "bolo": false,
         "bolo_card_post": "C=7FJpbm1qx8xfuWZgTSCeUc3Zh7vSP9C9C7eeUT%2BCPRfHOGvWF10MZHbPBHC7Jg1QZAYkDH7v0n9Y%0A%2FboRFRm9kz7OpI2p%2FrQKvjqAxiEVz1%2FOhFcPcsT%2FRk7locCZDQT1%0A&lr=4w5lACJ1TytaNAj8OBCjCg%3D%3D%0A",
-        "friend_battle": false,
+        "friend_battle": true,
         "friend_battle_card_post": "C=1sJp3xyI5zRGPDRqnBND4j7OpI2p%2FrQKvjqAxiEVz1%2FHOGvWF10MZHbPBHC7Jg1QZAYkDH7v0n9Y%0A%2FboRFRm9k83hsHZFRs%2ByfEqapAl7vSI%3D%0A&lr=mtVAgrnjoAGBEmJXqpGFIQ%3D%3D%0A",
         "map": true,
+        "change_map": true,
         "ap_water": false,
         "bc_water": false
     }]

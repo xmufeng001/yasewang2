@@ -1,18 +1,9 @@
 {
     "dev": {
-        "proxy":false,
+        "proxy":true,
         "proxyAddress": "localhost",
         "proxyPort": "8888",
-        "today_map": "area_id=N03e3kqbX8eEoIdv1LhN9A%3D%3D%0A&auto_build=HJQrxs%2FKaF3hyO81WS2jdA%3D%3D%0A&floor_id=HJQrxs%2FKaF3hyO81WS2jdA%3D%3D%0A" ,
-        "map": {
-            "1": ["area_id=tuxL1%2FX0mutGXsZtPFMXZA%3D%3D%0A&auto_build=HJQrxs%2FKaF3hyO81WS2jdA%3D%3D%0A&floor_id=HJQrxs%2FKaF3hyO81WS2jdA%3D%3D%0A","area_id=tuxL1%2FX0mutGXsZtPFMXZA%3D%3D%0A&auto_build=HJQrxs%2FKaF3hyO81WS2jdA%3D%3D%0A&floor_id=vEVHSbIy52rSa1oy06FUIg%3D%3D%0A"],
-            "2": ["area_id=JfZH6W240Ri%2BC5cFJm%2FuAQ%3D%3D%0A&auto_build=HJQrxs%2FKaF3hyO81WS2jdA%3D%3D%0A&floor_id=HJQrxs%2FKaF3hyO81WS2jdA%3D%3D%0A"],
-            "3": ["area_id=N%2BvTuVXRruiuVevIhjtn3Q%3D%3D%0A&auto_build=HJQrxs%2FKaF3hyO81WS2jdA%3D%3D%0A&floor_id=HJQrxs%2FKaF3hyO81WS2jdA%3D%3D%0A"],
-            "4": ["area_id=YacmV8ZFnO5UHbwfi%2B%2BJ9g%3D%3D%0A&auto_build=HJQrxs%2FKaF3hyO81WS2jdA%3D%3D%0A&floor_id=HJQrxs%2FKaF3hyO81WS2jdA%3D%3D%0A"],
-            "5": ["area_id=l1a5XJneQxnNNStLducLqw%3D%3D%0A&auto_build=HJQrxs%2FKaF3hyO81WS2jdA%3D%3D%0A&floor_id=HJQrxs%2FKaF3hyO81WS2jdA%3D%3D%0A"],
-            "6": [""],
-            "7": [""],
-            "school": ["area_id=N03e3kqbX8eEoIdv1LhN9A%3D%3D%0A&auto_build=HJQrxs%2FKaF3hyO81WS2jdA%3D%3D%0A&floor_id=HJQrxs%2FKaF3hyO81WS2jdA%3D%3D%0A"]
-        }
+        "special_today_map": ["熙熙攘攘的教学楼","樱花烂漫的女舍外","午间休息的自习室","挥汗如雨的篮球场","邂逅女神的图书馆","风平浪静的海岸边","云淡风轻的天台顶"],
+        "today_map": ["风月翩翩吹拂的林地","灯火摇曳的漫步之园","水气飘渺的彩虹之谷","无人涉足的朽木之森","金殿玉楼的连绵山丘"]
     }
 }

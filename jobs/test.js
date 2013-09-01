@@ -22,62 +22,9 @@ if (cluster.isMaster) {
 
     var userConfList=getAllUserConf();
     userConfList.forEach(function(userConf) {
-        console.dir(userConf);
-        var worker = cluster.fork();
-        worker.send(userConf);
-        //-------------------------listener-------------------------
-        worker.on('exit', function(code, signal) {
-            console.log(userConf.login_id+"is on exit'");
-            if( signal ) {
-                console.log("worker was killed by signal: "+signal);
-            } else if( code !== 0 ) {
-                console.log("worker exited with error code: "+code);
-            } else {
-                console.log("worker success!");
-            }
-            userConf=getUserByLoginId(userConf["login_id"]);
-            if(userConf){
-                console.dir(userConf);
-                var worker = cluster.fork();
-                worker.send(userConf);
-            }else{
-                console.log(userConf.login_id+"is deleted'");
-            }
-
+        leveling.startJob(userConf,new Date(),-30,function(startTaskTime){
+            console.log(userConf["login_id"]+"  "+startTaskTime+"'s task is complete");
         });
-        worker.on('fork', function(worker) {
-            console.log(userConf.login_id+"is on fork'");
-        });
-        worker.on('online', function(worker) {
-            console.log(userConf.login_id+"is on online'");
-        });
-
-        worker.on('disconnect', function(worker) {
-            console.log(userConf.login_id+"is on disconnect'");
-        });
-        worker.on('message', function(message) {
-            if(message.cmd=="reset"){
-                userConf=getUserByLoginId(userConf["login_id"]);
-                if(userConf){
-                    console.dir(userConf);
-                    worker.send(userConf);
-                }else{
-                    console.log(userConf.login_id+"is deleted'");
-                }
-            }
-        });
-    });
-
-} else {
-    process.on('message', function(userConf) {
-        if(userConf.status==7){
-            var timeOutMinutes=userConf["resetInterval"]?userConf["resetInterval"]:-30;
-            leveling.startJob(userConf,new Date(),timeOutMinutes,function(startTaskTime){
-                console.log(userConf["login_id"]+"  "+startTaskTime+"'s task is complete");
-                process.send({ cmd: 'reset' });
-                return;
-            });
-        }
     });
 
 }

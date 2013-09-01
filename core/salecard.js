@@ -21,17 +21,6 @@ var startJob = function (userConf, startTime, timeOutMinutes, onTimeOut) {
         },
         function (userConf, userData, callback) {
             var intervalId = setInterval(function () {
-                if (moment().add('minutes', timeOutMinutes).isAfter(startTime)) {
-                    if (intervalId) {
-                        console.log(userConf["login_id"] + "____________________________________________clearInterval:" + new Date());
-                        clearInterval(intervalId);
-                        if (onTimeOut) {
-                            console.log("onTimeOut:" + new Date());
-                            onTimeOut(startTime);
-                        }
-                        return;
-                    }
-                }
                 async.waterfall([
                     function (callback) {
                         mainmenu(userConf, userData, callback);
@@ -83,7 +72,7 @@ var startJob = function (userConf, startTime, timeOutMinutes, onTimeOut) {
                             ], function (err, result) {
                                 console.error(error);
                             });
-                        } else if (importantFairy && userConf["lick"] && bc > 4) {
+                        }else if (importantFairy && userConf["lick"] && bc > 4) {
                             async.waterfall([
                                 function (callback) {
                                     savedeckcard(userConf, userData, "lick_card_post", callback);
@@ -543,90 +532,76 @@ var area = function (userConf, userData, callback) {
                             console.error(userConf["login_id"] + " server errors:" + result.response.header.error.message.text());
                         } else {
                             var area_info_list = result.response.body.exploration_area.area_info_list.area_info;
-                            var change_map=userConf["change_map"]?userConf["change_map"]:false;
-                            if (!change_map) {
-                                for (var i = 0; i < area_info_list.count(); i++) {
-                                    var area_info = area_info_list.at(i);
-                                    if (app_conf["special_today_map"].indexOf(area_info.name.text()) != -1 && area_info.area_type.text() === "1") {     //今日地图还没走完
-                                        var id = area_info.id.text();
-                                        var name = area_info.name.text();
-                                        console.log(userConf["login_id"] + " 选择大图|" + "默认的今日特殊地图:" + name + "|" + id);
-                                        callback(null, userConf, userData, name, id);
-                                        break;
-                                    }
+                            var hasNotCompleteSpecialTodayMap = false;
+                            for (var i = 0; i < area_info_list.count(); i++) {
+                                var area_info = area_info_list.at(i);
+                                if (app_conf["special_today_map"].indexOf(area_info.name.text()) != -1 && area_info.area_type.text() === "1" && area_info.prog_item.text() != "100") {     //今日地图还没走完
+                                    var id = area_info.id.text();
+                                    var name = area_info.name.text();
+                                    console.log(userConf["login_id"] + " 选择大图|" + "未完的今日地图:" + name + "|" + id);
+                                    callback(null, userConf, userData, name, id);
+                                    hasNotCompleteSpecialTodayMap = true;
+                                    break;
                                 }
-                            } else {
-                                var hasNotCompleteSpecialTodayMap = false;
+                            }
+                            if (!hasNotCompleteSpecialTodayMap) {
+                                var hasNotCompleteTodayMap = false;
                                 for (var i = 0; i < area_info_list.count(); i++) {
                                     var area_info = area_info_list.at(i);
-                                    if (app_conf["special_today_map"].indexOf(area_info.name.text()) != -1 && area_info.area_type.text() === "1" && area_info.prog_area.text() != "100") {     //今日地图还没走完
+                                    if (app_conf["today_map"].indexOf(area_info.name.text()) != -1 && area_info.area_type.text() === "1" && area_info.prog_item.text() != "100") {     //今日地图还没走完
                                         var id = area_info.id.text();
                                         var name = area_info.name.text();
                                         console.log(userConf["login_id"] + " 选择大图|" + "未完的今日地图:" + name + "|" + id);
                                         callback(null, userConf, userData, name, id);
-                                        hasNotCompleteSpecialTodayMap = true;
+                                        hasNotCompleteTodayMap = true;
                                         break;
                                     }
                                 }
-                                if (!hasNotCompleteSpecialTodayMap) {
-                                    var hasNotCompleteTodayMap = false;
+                                if (!hasNotCompleteTodayMap) {
+                                    var hasNotCompleteEventMap = false;
                                     for (var i = 0; i < area_info_list.count(); i++) {
                                         var area_info = area_info_list.at(i);
-                                        if (app_conf["today_map"].indexOf(area_info.name.text()) != -1 && area_info.area_type.text() === "1" && area_info.prog_area.text() != "100") {     //今日地图还没走完
+                                        if (area_info.area_type.text() === "1" && area_info.prog_item.text() != "100") {     //活动地图还没走完
                                             var id = area_info.id.text();
                                             var name = area_info.name.text();
-                                            console.log(userConf["login_id"] + " 选择大图|" + "未完的今日地图:" + name + "|" + id);
+                                            console.log(userConf["login_id"] + " 选择大图|" + "未完的活动地图:" + name + "|" + id);
                                             callback(null, userConf, userData, name, id);
-                                            hasNotCompleteTodayMap = true;
+                                            hasNotCompleteEventMap = true;
                                             break;
                                         }
                                     }
-                                    if (!hasNotCompleteTodayMap) {
-                                        var hasNotCompleteEventMap = false;
+                                    if (!hasNotCompleteEventMap) {
+                                        var hasEventMap = false
                                         for (var i = 0; i < area_info_list.count(); i++) {
                                             var area_info = area_info_list.at(i);
-                                            if (area_info.area_type.text() === "1" && area_info.prog_area.text() != "100") {     //活动地图还没走完
+                                            if (area_info.area_type.text() === "1") {     //活动地图走完也走
                                                 var id = area_info.id.text();
                                                 var name = area_info.name.text();
-                                                console.log(userConf["login_id"] + " 选择大图|" + "未完的活动地图:" + name + "|" + id);
+                                                console.log(userConf["login_id"] + " 选择大图|" + "已经完成全部的活动地图:" + name + "|" + id);
                                                 callback(null, userConf, userData, name, id);
-                                                hasNotCompleteEventMap = true;
+                                                hasEventMap = true;
                                                 break;
                                             }
                                         }
-                                        if (!hasNotCompleteEventMap) {
-                                            var hasEventMap = false
+                                        if (!hasEventMap) {
+                                            var hasNotCompleteMap = false;
                                             for (var i = 0; i < area_info_list.count(); i++) {
                                                 var area_info = area_info_list.at(i);
-                                                if (area_info.area_type.text() === "1") {     //活动地图走完也走
+                                                if (area_info.prog_item.text() != "100") {     //活动地图木有，随便找没走完的地图走了算了
                                                     var id = area_info.id.text();
                                                     var name = area_info.name.text();
-                                                    console.log(userConf["login_id"] + " 选择大图|" + "已经完成全部的活动地图:" + name + "|" + id);
+                                                    console.log(userConf["login_id"] + " 选择大图|" + "未完的正常地图:" + name + "|" + id);
                                                     callback(null, userConf, userData, name, id);
-                                                    hasEventMap = true;
+                                                    hasNotCompleteMap = true;
                                                     break;
                                                 }
                                             }
-                                            if (!hasEventMap) {
-                                                var hasNotCompleteMap = false;
-                                                for (var i = 0; i < area_info_list.count(); i++) {
-                                                    var area_info = area_info_list.at(i);
-                                                    if (area_info.prog_area.text() != "100") {     //活动地图木有，随便找没走完的地图走了算了
-                                                        var id = area_info.id.text();
-                                                        var name = area_info.name.text();
-                                                        console.log(userConf["login_id"] + " 选择大图|" + "未完的正常地图:" + name + "|" + id);
-                                                        callback(null, userConf, userData, name, id);
-                                                        hasNotCompleteMap = true;
-                                                        break;
-                                                    }
-                                                }
-                                                if (!hasNotCompleteMap) {
-                                                    var area_info = area_info_list.at(0);
-                                                    var id = area_info.id.text();
-                                                    var name = area_info.name.text();
-                                                    console.log(userConf["login_id"] + " 选择大图|" + "已经完成的正常地图:" + name + "|" + id);
-                                                    callback(null, userConf, userData, name, id);
-                                                }
+                                            if (!hasNotCompleteMap) {
+                                                var area_info = area_info_list.at(0);
+                                                var id = area_info.id.text();
+                                                var name = area_info.name.text();
+                                                console.log(userConf["login_id"] + " 选择大图|" + "已经完成的正常地图:" + name + "|" + id);
+                                                callback(null, userConf, userData, name, id);
                                             }
                                         }
                                     }
@@ -689,7 +664,7 @@ var floor = function (userConf, userData, area_name, area_id, callback) {
                                 var floor_info = floor_info_list.at(0);
                                 var floor_id = floor_info.id.text();
                                 var cost = parseInt(floor_info.cost.text());
-                                console.log(userConf["login_id"] + " 选择子图|" + "已完成的地图:" + area_name + "|floor_id:" + floor_id + "|cost:" + cost);
+                                console.log(userConf["login_id"] + " 选择子图|" + "已完成是地图:" + area_name + "|floor_id:" + floor_id + "|cost:" + cost);
                                 callback(null, userConf, userData, area_name, area_id, floor_id, cost);
                             }
 

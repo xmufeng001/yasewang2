@@ -90,6 +90,21 @@ exports.getMostImportantFairybattle=function(userDate){
     }
     return mostImportantFairybattle;
 }
+exports.getAwakentFairybattle=function(userDate){
+    if(!(userDate["fairybattle"]&&userDate["fairybattle"].length>0)){
+        return null;
+    }
+    var awakentFairybattle;
+    var fairybattleList= userDate["fairybattle"];
+    for(var i=0;i<fairybattleList.length;i++){
+        var fairybattle=fairybattleList[i];
+        if(!fairybattle.licked&&fairybattle.put_down=="1"&&fairybattle.name.indexOf("觉醒")!=-1){  //没舔过的,还没死的
+            awakentFairybattle=fairybattle;
+            break;
+        }
+    }
+    return awakentFairybattle;
+}
 
 exports.getMostValueFairybattle=function(userDate){
 //    var userDate=getUserByLoginId(login_id) ;
