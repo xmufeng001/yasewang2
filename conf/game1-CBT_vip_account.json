@@ -47,7 +47,7 @@
             "map": true,
             "ap_water": false,
             "bc_water": false,
-            "resetInterval":-60
+            "resetInterval":-15
 
         }
     ]
