@@ -89,16 +89,16 @@
       <file leaf-file-name="game1-CBT_vip_account.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/conf/game1-CBT_vip_account.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="8" selection-start="29" selection-end="29" vertical-scroll-proportion="-0.72289157">
+            <state line="37" column="19" selection-start="2074" selection-end="2106" vertical-scroll-proportion="-4.7710843">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="game1-CBT_month_account.json" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="game1-CBT_month_account.json" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/conf/game1-CBT_month_account.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="23" selection-start="2993" selection-end="2993" vertical-scroll-proportion="-10.433735">
+            <state line="63" column="25" selection-start="3995" selection-end="4027" vertical-scroll-proportion="0.83870965">
               <folding />
             </state>
           </provider>
@@ -113,10 +113,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="game1-CBT_complete_account.json" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="game1-CBT_complete_account.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/conf/game1-CBT_complete_account.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="213" column="10" selection-start="13025" selection-end="13025" vertical-scroll-proportion="0.8125">
+            <state line="178" column="9" selection-start="10871" selection-end="10871" vertical-scroll-proportion="-1.4939759">
               <folding />
             </state>
           </provider>
@@ -134,7 +134,7 @@
       <file leaf-file-name="game2-CBT_vip_account.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/conf/game2-CBT_vip_account.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="17" selection-start="19" selection-end="19" vertical-scroll-proportion="4.0963855">
+            <state line="22" column="20" selection-start="1102" selection-end="1102" vertical-scroll-proportion="-1.4096385">
               <folding />
             </state>
           </provider>
@@ -160,12 +160,12 @@
         <option value="$PROJECT_DIR$/conf/test.json" />
         <option value="$PROJECT_DIR$/config.json" />
         <option value="$PROJECT_DIR$/core/leveling.js" />
-        <option value="$PROJECT_DIR$/conf/game1-CBT_month_account.json" />
-        <option value="$PROJECT_DIR$/conf/game2-CBT_vip_account.json" />
         <option value="$PROJECT_DIR$/conf/game2-CBT_complete_account.json" />
         <option value="$PROJECT_DIR$/conf/game1-CBT_common_account.json" />
-        <option value="$PROJECT_DIR$/conf/game1-CBT_vip_account.json" />
         <option value="$PROJECT_DIR$/conf/game1-CBT_complete_account.json" />
+        <option value="$PROJECT_DIR$/conf/game2-CBT_vip_account.json" />
+        <option value="$PROJECT_DIR$/conf/game1-CBT_vip_account.json" />
+        <option value="$PROJECT_DIR$/conf/game1-CBT_month_account.json" />
       </list>
     </option>
   </component>
@@ -516,13 +516,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conf/game2-CBT_vip_account.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="17" selection-start="19" selection-end="19" vertical-scroll-proportion="4.0963855">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app-conf.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -560,23 +553,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conf/game1-CBT_month_account.json">
+    <entry file="file://$PROJECT_DIR$/conf/game1-CBT_complete_account.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="23" selection-start="2993" selection-end="2993" vertical-scroll-proportion="-10.433735">
+        <state line="178" column="9" selection-start="10871" selection-end="10871" vertical-scroll-proportion="-1.4939759">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/game2-CBT_vip_account.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="20" selection-start="1102" selection-end="1102" vertical-scroll-proportion="-1.4096385">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/conf/game1-CBT_vip_account.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="8" selection-start="29" selection-end="29" vertical-scroll-proportion="-0.72289157">
+        <state line="37" column="19" selection-start="2074" selection-end="2106" vertical-scroll-proportion="-4.7710843">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conf/game1-CBT_complete_account.json">
+    <entry file="file://$PROJECT_DIR$/conf/game1-CBT_month_account.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="213" column="10" selection-start="13025" selection-end="13025" vertical-scroll-proportion="0.8125">
+        <state line="63" column="25" selection-start="3995" selection-end="4027" vertical-scroll-proportion="0.83870965">
           <folding />
         </state>
       </provider>

@@ -18,6 +18,26 @@
             "bc_water": true,
             "resetInterval":-30
 
+        },
+        {
+            "login_id": "18918188901",
+            "password": "08091101",
+            "status": 7,
+            "host": "game1-CBT.ma.sdo.com:10001",
+            "lick": false,
+            "lick_more": false,
+            "lick_awaken_only": true,
+            "lick_card_post": "C=HOrrmH7lAJGnyndNRA1jZz7OpI2p%2FrQKvjqAxiEVz1%2FHOGvWF10MZHbPBHC7Jg1QZAYkDH7v0n9Y%0A%2FboRFRm9k83hsHZFRs%2ByfEqapAl7vSI%3D%0A&lr=zZkYG1647SX0nWMGf9xQMQ%3D%3D%0A",
+            "bolo": true,
+            "bolo_card_post": "C=Xm8NPKMFgVoBm%2FutW3WPyLaPlU4vkFt2p0ToVbbRdWTHOGvWF10MZHbPBHC7Jg1QZAYkDH7v0n9Y%0A%2FboRFRm9kz7OpI2p%2FrQKvjqAxiEVz1%2FOhFcPcsT%2FRk7locCZDQT1%0A&lr=zZkYG1647SX0nWMGf9xQMQ%3D%3D%0A",
+            "friend_battle": false,
+            "friend_battle_card_post": "C=azPzB1gJ6mJg%2BaV2cv0ebT7OpI2p%2FrQKvjqAxiEVz1%2FHOGvWF10MZHbPBHC7Jg1QZAYkDH7v0n9Y%0A%2FboRFRm9k83hsHZFRs%2ByfEqapAl7vSI%3D%0A&lr=IgcDVUvxQRlUS2PEOsHZ6Q%3D%3D%0A",
+            "map": true,
+            "ap_water": false,
+            "bc_water": false,
+            "change_map": true,
+            "resetInterval":-30
+
         }
     ]
 }
