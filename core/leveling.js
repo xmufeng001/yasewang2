@@ -178,20 +178,28 @@ var login = function (userConf, callback) {
                         }
                         if (result.response.header.error.code.text() != "0") {
                             console.error(userConf["login_id"] + " server errors:" + result.response.header.error.message.text());
-                            return;
+                            var cookieString = userConf["cookie"];
+                            if (response.headers['set-cookie']) {
+                                var cookieString = response.headers['set-cookie'].toString();
+                                cookieString = cookieString.substring(cookieString.lastIndexOf("S="), cookieString.lastIndexOf(";"));
+                            }
+                            var userData = { host: host, login_id: login_id, cookie: cookieString};
+                            // var userData=userInfo.saveOrUpdateUser(user);
+                            callback(null, userConf, userData);
+                        }else{
+                            var session_id = result.response.header.session_id.text();
+                            var name = result.response.header.your_data.name.text();
+                            var town_level = result.response.header.your_data.town_level.text();
+                            var gold = parseInt(result.response.header.your_data.gold.text());
+                            var ap = {current: parseInt(result.response.header.your_data.ap.current.text()), max: parseInt(result.response.header.your_data.ap.max.text())};
+                            var bc = {current: parseInt(result.response.header.your_data.bc.current.text()), max: parseInt(result.response.header.your_data.bc.max.text())};
+                            var friendship_point = parseInt(result.response.header.your_data.friendship_point.text());
+                            var user_id = result.response.body.login.user_id.text();
+                            var userData = {name: name, town_level: town_level, gold: gold, ap: ap, bc: bc, friendship_point: friendship_point, user_id: user_id, host: host, login_id: login_id, session_id: session_id, cookie: "S=" + session_id};
+
+                            callback(null, userConf, userData);
                         }
-                        var session_id = result.response.header.session_id.text();
-                        var name = result.response.header.your_data.name.text();
-                        var town_level = result.response.header.your_data.town_level.text();
-                        var gold = parseInt(result.response.header.your_data.gold.text());
-                        var ap = {current: parseInt(result.response.header.your_data.ap.current.text()), max: parseInt(result.response.header.your_data.ap.max.text())};
-                        var bc = {current: parseInt(result.response.header.your_data.bc.current.text()), max: parseInt(result.response.header.your_data.bc.max.text())};
-                        var friendship_point = parseInt(result.response.header.your_data.friendship_point.text());
-                        var user_id = result.response.body.login.user_id.text();
-                        var userData = {name: name, town_level: town_level, gold: gold, ap: ap, bc: bc, friendship_point: friendship_point, user_id: user_id, host: host, login_id: login_id, session_id: session_id, cookie: "S=" + session_id};
-                        //userInfo.saveOrUpdateUser(user);
-                        //var userData = userInfo.getUserByLoginId(login_id);
-                        callback(null, userConf, userData);
+
                     });
 
 
@@ -545,16 +553,48 @@ var area = function (userConf, userData, callback) {
                             var area_info_list = result.response.body.exploration_area.area_info_list.area_info;
                             var change_map=userConf["change_map"]?userConf["change_map"]:false;
                             if (!change_map) {
+                                var hasNotCompleteSpecialTodayMap = false;
+
                                 for (var i = 0; i < area_info_list.count(); i++) {
                                     var area_info = area_info_list.at(i);
-                                    if (app_conf["special_today_map"].indexOf(area_info.name.text()) != -1 && area_info.area_type.text() === "1") {     //今日地图还没走完
+                                    if (app_conf["special_today_map"].indexOf(area_info.name.text()) != -1 && area_info.area_type.text() === "1"&& area_info.prog_area.text() != "100") {     //今日地图还没走完
                                         var id = area_info.id.text();
                                         var name = area_info.name.text();
                                         console.log(userConf["login_id"] + " 选择大图|" + "默认的今日特殊地图:" + name + "|" + id);
                                         callback(null, userConf, userData, name, id);
+                                        hasNotCompleteSpecialTodayMap=true;
                                         break;
                                     }
                                 }
+                                if(!hasNotCompleteSpecialTodayMap){
+                                    var hasNotCompleteTodayMap=false;
+                                    for (var i = 0; i < area_info_list.count(); i++) {
+                                        var area_info = area_info_list.at(i);
+                                        if (app_conf["today_map"].indexOf(area_info.name.text()) != -1 && area_info.area_type.text() === "1") {     //今日地图还没走完
+                                            var id = area_info.id.text();
+                                            var name = area_info.name.text();
+                                            console.log(userConf["login_id"] + " 选择大图|" + "默认的今日地图:" + name + "|" + id);
+                                            callback(null, userConf, userData, name, id);
+                                            hasNotCompleteTodayMap=true;
+                                            break;
+                                        }
+                                    }
+                                    if(!hasNotCompleteTodayMap){
+                                        for (var i = 0; i < area_info_list.count(); i++) {
+                                            var area_info = area_info_list.at(i);
+                                            if (app_conf["special_today_map"].indexOf(area_info.name.text()) != -1 && area_info.area_type.text() === "1") {     //今日地图还没走完
+                                                var id = area_info.id.text();
+                                                var name = area_info.name.text();
+                                                console.log(userConf["login_id"] + " 选择大图|" + "周末的今日特殊地图:" + name + "|" + id);
+                                                callback(null, userConf, userData, name, id);
+                                                break;
+                                            }
+                                        }
+                                    }
+
+                                }
+
+
                             } else {
                                 var hasNotCompleteSpecialTodayMap = false;
                                 for (var i = 0; i < area_info_list.count(); i++) {
@@ -747,8 +787,8 @@ var explore = function (userConf, userData, area_name, area_id, floor_id, cost) 
                                 var progress = exploreResult.progress.text();
                                 var gold = exploreResult.gold.text();
                                 var get_exp = exploreResult.get_exp ? exploreResult.get_exp.text() : 0;
-                                var before_count = exploreResult.special_item.before_count.text();
-                                var after_count = exploreResult.special_item.after_count.text();
+                                var before_count = exploreResult.special_item?exploreResult.special_item.before_count.text():0;
+                                var after_count = exploreResult.special_item?exploreResult.special_item.after_count.text():0;
 
                                 resultMessage = userConf["login_id"] + "event_type:" + event_type + "|progress:" + progress + "|gold:" + gold + "|get_exp:" + get_exp + "|活动物品:" + before_count + "->" + after_count;
 //                                if(event_type=="2"){
