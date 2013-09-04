@@ -88,7 +88,7 @@ var login = function (userConf, callback) {
                             var evolution_price = user_card_list.at(i).evolution_price.text();
                             var plus_limit_count = user_card_list.at(i).plus_limit_count.text();
                             var limit_over = user_card_list.at(i).limit_over.text();
-                            if (lv == "1" && sale_price < 600) { //出售一星和二星卡
+                            if (lv == "1" && sale_price <= 170) { //出售一星和二星卡
                                 willSaleCards.push(serial_id);
                             }
                         }

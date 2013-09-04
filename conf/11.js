@@ -6,8 +6,8 @@
     "accountName":"gmtest1205@ittest.com",
     "isActivated":"Y",
     "status":7,
-   "isBuyer":"Y";
-   "isSeller""N";
-   "isOffice"N":;
+   "isBuyer":"Y",
+   "isSeller""N",
+   "isOffice："N"
 
 }
