@@ -95,7 +95,7 @@ var startJob = function (userConf, startTime, timeOutMinutes, onTimeOut) {
                             ], function (err, result) {
                                 console.error(error);
                             });
-                        } else if (valueFairy && userConf["bolo"] && bc > 57 && parseInt(userData["ex_gauge"]) > 90) {
+                        } else if (valueFairy && userConf["bolo"] && bc > 57 && parseInt(userData["ex_gauge"]) > 75) {
                             async.waterfall([
                                 function (callback) {
                                     console.log(userConf["login_id"] + "开始大刀" + ":fairybattle:" + valueFairy.serial_id + " lv:" + valueFairy.lv + " " + valueFairy.name);
@@ -120,7 +120,7 @@ var startJob = function (userConf, startTime, timeOutMinutes, onTimeOut) {
                                 console.error(error);
                             });
                         }
-                        else if ((userConf["friend_battle"] && bc > 25) || (userConf["friend_battle"] && !userConf["lick"] && bc > 4)) {
+                        else if ((userConf["friend_battle"] && bc > 8) || (userConf["friend_battle"] && !userConf["lick"] && bc > 4)) {
                             async.waterfall([
                                 function (callback) {
                                     savedeckcard(userConf, userData, "friend_battle_card_post", callback);
@@ -144,7 +144,7 @@ var startJob = function (userConf, startTime, timeOutMinutes, onTimeOut) {
                     console.error(err);
                 });
 
-            }, 27000);
+            }, 37000);
         }
     ], function (err, result) {
         console.error(error);
