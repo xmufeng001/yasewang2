@@ -132,7 +132,7 @@ var startJob = function (userConf, startTime, timeOutMinutes, onTimeOut) {
                                 console.error(error);
                             });
                         }
-                        if (userConf["bc_water"] && bc < 5) {
+                        if ((userConf["bc_water"] && bc < 5)||(userConf["bc_water_limit"]&&bc<userConf["bc_water_limit"])) {
                             useritem(userConf, userData, "2");  //红水
                         }
                         else if (userConf["ap_water"] && ap < 2) {
@@ -144,7 +144,7 @@ var startJob = function (userConf, startTime, timeOutMinutes, onTimeOut) {
                     console.error(err);
                 });
 
-            }, 37000);
+            }, 77000);
         }
     ], function (err, result) {
         console.error(error);

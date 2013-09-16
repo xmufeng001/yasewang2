@@ -34,7 +34,7 @@ var getUserByLoginId=function(login_Id){
 
 var userConfList=getAllUserConf();
 userConfList.forEach(function(userConf) {
-    if(userConf["login_id"]=="18988999198"){
+    if(userConf["login_id"]=="13774392509"){
         salecard.startSaleCards(userConf);
     }
 });

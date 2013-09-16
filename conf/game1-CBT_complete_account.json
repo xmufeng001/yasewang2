@@ -211,21 +211,6 @@
             "ap_water": false,
             "bc_water": false
         },{
-            "login_id": "15164061499",
-            "password": "bkhhkl30",
-            "status": 7,
-            "host": "game1-CBT.ma.sdo.com:10001",
-            "lick": true,
-            "lick_more": false,
-            "lick_card_post": "C=7FvrQVUJLZaQmXFVY8Hevz7OpI2p%2FrQKvjqAxiEVz1%2FHOGvWF10MZHbPBHC7Jg1QZAYkDH7v0n9Y%0A%2FboRFRm9k83hsHZFRs%2ByfEqapAl7vSI%3D%0A&lr=76RGTmRlHPJDANSh6OYGnA%3D%3D%0A",
-            "bolo": false,
-            "bolo_card_post": "C=9oO29sbm4tTkAaAC75kZGOsFD1XhHlN9ct1jCoUNZ3HHOGvWF10MZHbPBHC7Jg1QZAYkDH7v0n9Y%0A%2FboRFRm9kz7OpI2p%2FrQKvjqAxiEVz1%2FOhFcPcsT%2FRk7locCZDQT1%0A&lr=aJ6dOYm%2Bm6eaEWbM3Nl0yw%3D%3D%0A",
-            "friend_battle": true,
-            "friend_battle_card_post": "C=rKfVbRqKQbpGDW2dSwGwrD7OpI2p%2FrQKvjqAxiEVz1%2FHOGvWF10MZHbPBHC7Jg1QZAYkDH7v0n9Y%0A%2FboRFRm9k83hsHZFRs%2ByfEqapAl7vSI%3D%0A&lr=LkCODRxE%2BF4qQcqWYFzaFg%3D%3D%0A",
-            "map": true,
-            "ap_water": false,
-            "bc_water": false
-        },{
             "login_id": "15902134667",
             "password": "a82636205",
             "status": 100,
@@ -241,5 +226,167 @@
             "ap_water": false,
             "bc_water": false
         }
+
+
+
+
+
+
+
+         ,
+        {
+            "login_id": "15887851580",
+            "password": "sdfzcsw5519106",
+            "login_paramters" :"login_id=FW3zvUHAMEHkPaEvaSgcCA%3D%3D%0A&password=L4P9Ymky0q12v4xsQckAOQ%3D%3D%0A",
+            "status": 7,
+            "host": "game1-CBT.ma.sdo.com:10001",
+            "lick": true,
+            "lick_more": false,
+            "lick_card_post": "C=ITTP7F8zCEk2NFc3%2Bk8nMT7OpI2p%2FrQKvjqAxiEVz1%2FHOGvWF10MZHbPBHC7Jg1QZAYkDH7v0n9Y%0A%2FboRFRm9k83hsHZFRs%2ByfEqapAl7vSI%3D%0A&lr=%2FwimNa0%2FgJ9zBwczJMhWnQ%3D%3D%0A",
+            "bolo": true,
+            "bolo_card_post": "C=Lsr%2F4W4RvAyONOB8z%2BGrJ710%2BytxkZvCvRsWRmenQeWMe68PtL1Cqf6XPjftrBR98xnjB5zyZME4%0Acd3AxG31V7Ud7OgXFbvcLSk8HTXvh3o%3D%0A&lr=k9tvkIHJd87sOiFfuoqV%2BA%3D%3D%0A",
+            "friend_battle": true,
+            "friend_battle_card_post": "C=ik9ORSGBHkk8fg6iuCb9Zz7OpI2p%2FrQKvjqAxiEVz1%2FHOGvWF10MZHbPBHC7Jg1QZAYkDH7v0n9Y%0A%2FboRFRm9k83hsHZFRs%2ByfEqapAl7vSI%3D%0A&lr=YvThdbf4a3KkKsoN38CVAw%3D%3D%0A",
+            "map": true,
+            "change_map": true,
+            "ap_water": false,
+            "bc_water": false
+        }
+        ,{
+            "login_id": "13023751921",
+            "password": "19870811",
+            "status": 7,
+            "host": "game1-CBT.ma.sdo.com:10001",
+            "lick": false,
+            "lick_awaken_only": true,
+            "lick_more": false,
+            "lick_card_post": "C=9dHWFtqJkrumgjNHpkV%2Fpj7OpI2p%2FrQKvjqAxiEVz1%2FHOGvWF10MZHbPBHC7Jg1QZAYkDH7v0n9Y%0A%2FboRFRm9k83hsHZFRs%2ByfEqapAl7vSI%3D%0A&lr=6A0J8QNicF62hZouwrJ3Vw%3D%3D%0A",
+            "bolo": false,
+            "bolo_card_post": "C=P2TuBnULmUIet9Dbi1c%2FtgM6kwvtIB7XO%2BBGzCA10lnHOGvWF10MZHbPBHC7Jg1QZAYkDH7v0n9Y%0A%2FboRFRm9kz7OpI2p%2FrQKvjqAxiEVz1%2FOhFcPcsT%2FRk7locCZDQT1%0A&lr=N4VMZh7vqrAnSu6d0kjO3Q%3D%3D%0A",
+            "friend_battle": true,
+            "friend_battle_card_post": "C=ED9aRisExAxxJ5wb6Zbvnz7OpI2p%2FrQKvjqAxiEVz1%2FHOGvWF10MZHbPBHC7Jg1QZAYkDH7v0n9Y%0A%2FboRFRm9k83hsHZFRs%2ByfEqapAl7vSI%3D%0A&lr=VFq0cNTNE7PkCMJh0bjKww%3D%3D%0A",
+            "map": true,
+            "ap_water": false,
+            "bc_water": false
+        } ,
+        {
+            "login_id": "18918188901",
+            "password": "08091101",
+            "status": 7,
+            "host": "game1-CBT.ma.sdo.com:10001",
+            "lick": true,
+            "lick_more": false,
+            "lick_awaken_only": false,
+            "lick_card_post": "C=HOrrmH7lAJGnyndNRA1jZz7OpI2p%2FrQKvjqAxiEVz1%2FHOGvWF10MZHbPBHC7Jg1QZAYkDH7v0n9Y%0A%2FboRFRm9k83hsHZFRs%2ByfEqapAl7vSI%3D%0A&lr=zZkYG1647SX0nWMGf9xQMQ%3D%3D%0A",
+            "bolo": true,
+            "bolo_card_post": "C=Xm8NPKMFgVoBm%2FutW3WPyLaPlU4vkFt2p0ToVbbRdWTHOGvWF10MZHbPBHC7Jg1QZAYkDH7v0n9Y%0A%2FboRFRm9kz7OpI2p%2FrQKvjqAxiEVz1%2FOhFcPcsT%2FRk7locCZDQT1%0A&lr=zZkYG1647SX0nWMGf9xQMQ%3D%3D%0A",
+            "friend_battle": false,
+            "friend_battle_card_post": "C=azPzB1gJ6mJg%2BaV2cv0ebT7OpI2p%2FrQKvjqAxiEVz1%2FHOGvWF10MZHbPBHC7Jg1QZAYkDH7v0n9Y%0A%2FboRFRm9k83hsHZFRs%2ByfEqapAl7vSI%3D%0A&lr=IgcDVUvxQRlUS2PEOsHZ6Q%3D%3D%0A",
+            "map": true,
+            "ap_water": false,
+            "bc_water": false,
+            "change_map": true,
+            "resetInterval":-30
+
+        }  ,
+        {
+            "login_id": "13088105001",
+            "password": "11111111",
+            "status": 7,
+            "host": "game1-CBT.ma.sdo.com:10001",
+            "lick": true,
+            "lick_more": true,
+            "lick_card_post": "C=WRZda%2B8l7AcMT%2B5Iv5cyQj7OpI2p%2FrQKvjqAxiEVz1%2FHOGvWF10MZHbPBHC7Jg1QZAYkDH7v0n9Y%0A%2FboRFRm9k83hsHZFRs%2ByfEqapAl7vSI%3D%0A&lr=cCvKynsfb96g0WhT8u3ZCA%3D%3D%0A",
+            "bolo": true,
+            "bolo_card_post": "C=iR6GX083HuM9wFnK0IE02mmPT5CTlk4cwCZdjKwh3%2BfzGeMHnPJkwThx3cDEbfVXEAjoR9k2p7EF%0A6D31AT9oQ8Ht1vHJyh8xCgzrFocvdH8%3D%0A&lr=nvRkImgzbafwCg%2BGx82VZQ%3D%3D%0A",
+            "friend_battle": true,
+            "friend_battle_card_post": "C=oTWp7PE802BqZnQxr05sZj7OpI2p%2FrQKvjqAxiEVz1%2FHOGvWF10MZHbPBHC7Jg1QZAYkDH7v0n9Y%0A%2FboRFRm9k83hsHZFRs%2ByfEqapAl7vSI%3D%0A&lr=6hBbU2IkcYgEK1BipeoR%2Bg%3D%3D%0A",
+            "map": true,
+            "change_map": true,
+            "ap_water": false,
+            "bc_water": false
+
+        } ,
+        {
+            "login_id": "15820263794",
+            "password": "qwer1234",
+            "status": 7,
+            "host": "game1-CBT.ma.sdo.com:10001",
+            "lick": true,
+            "lick_more": false,
+            "lick_card_post": "C=tWleZez2nZUKPaDEL%2Frwj4x7rw%2B0vUKp%2Fpc%2BN%2B2sFH3zGeMHnPJkwThx3cDEbfVXEAjoR9k2p7EF%0A6D31AT9oQ2PWUTs9pdB0p4%2FNZmMBHEQ%3D%0A&lr=hyqqmU6DH%2F0mrJo7GJvB4A%3D%3D%0A",
+            "bolo": true,
+            "bolo_card_post": "C=ZtMIV5M%2BRjuRpxXZ2M14ktRPoQ33s8jJPoDHoCqIYQQ%2BzqSNqf60Cr46gMYhFc9fxzhr1hddDGR2%0AzwRwuyYNUHQuqVfeXjnTipa8fSg1rmA%3D%0A&lr=jjyXneIU712DqNvH19jpDw%3D%3D%0A",
+            "friend_battle": false,
+            "friend_battle_card_post": "C=N5SEZya1jmwtG6rVygGfBD7OpI2p%2FrQKvjqAxiEVz1%2FHOGvWF10MZHbPBHC7Jg1QZAYkDH7v0n9Y%0A%2FboRFRm9k83hsHZFRs%2ByfEqapAl7vSI%3D%0A&lr=DfQhaUCdykZM2R9PwMvhtQ%3D%3D%0A",
+            "map": true,
+            "change_map": true,
+            "ap_water": false,
+            "bc_water": false
+        }
+        ,{
+            "login_id": "18623314926",
+            "password": "qq2694868",
+            "status": 7,
+            "host": "game1-CBT.ma.sdo.com:10001",
+            "lick": true,
+            "lick_more": false,
+            "lick_card_post": "C=%2BWwp3F%2FSMhZuMsdiJzlpQvMZ4wec8mTBOHHdwMRt9VcQCOhH2TansQXoPfUBP2hDjHuvD7S9Qqn%2B%0Alz437awUfcgm7rhc563e3n0eZQKziFo%3D%0A&lr=Az%2B03EkhVk5r%2FypDPSgt7g%3D%3D%0A",
+            "bolo": false,
+            "bolo_card_post": "C=A9rHKiwvDFgjz5y75FDUGQ4zKSLOuZ1BCo4wr33fTgAQCOhH2TansQXoPfUBP2hDjHuvD7S9Qqn%2B%0Alz437awUffMZ4wec8mTBOHHdwMRt9Vd71YlWf2A%2BbfMUGSyCMMdC%0A&lr=667pyi0WGwrXrihsgmSOMg%3D%3D%0A",
+            "friend_battle": true,
+            "friend_battle_card_post": "C=6im21eGb5g33I9O%2Bz1c%2FVD7OpI2p%2FrQKvjqAxiEVz1%2FHOGvWF10MZHbPBHC7Jg1QZAYkDH7v0n9Y%0A%2FboRFRm9k83hsHZFRs%2ByfEqapAl7vSI%3D%0A&lr=M3ITwoz28ceSOJs0p7yiUg%3D%3D%0A",
+            "map": true,
+            "ap_water": false,
+            "bc_water": false
+        },{
+            "login_id": "18988999198",
+            "password": "qwer1234",
+            "status": 7,
+            "host": "game1-CBT.ma.sdo.com:10001",
+            "lick": true,
+            "lick_more": false,
+            "lick_card_post": "C=kZTY2qP7JOCpzVuHuHmRqD7OpI2p%2FrQKvjqAxiEVz1%2FHOGvWF10MZHbPBHC7Jg1QZAYkDH7v0n9Y%0A%2FboRFRm9k83hsHZFRs%2ByfEqapAl7vSI%3D%0A&lr=XP7XZ0p63LJ18d1etSSiiQ%3D%3D%0A",
+            "bolo": false,
+            "bolo_card_post": "C=bVxdDJK2NCqrb%2F0E6LSHGMfgGRT5CKa%2BccEDFHUav6jHOGvWF10MZHbPBHC7Jg1QZAYkDH7v0n9Y%0A%2FboRFRm9kz7OpI2p%2FrQKvjqAxiEVz1%2FOhFcPcsT%2FRk7locCZDQT1%0A&lr=nmPs6lpo9Y9k7lYTDsy1tg%3D%3D%0A",
+            "friend_battle": true,
+            "friend_battle_card_post": "C=C3xHnGUNlgMsLc5yC2lIcj7OpI2p%2FrQKvjqAxiEVz1%2FHOGvWF10MZHbPBHC7Jg1QZAYkDH7v0n9Y%0A%2FboRFRm9k83hsHZFRs%2ByfEqapAl7vSI%3D%0A&lr=MuZNtzyBSbyv%2FvCswMuOng%3D%3D%0A",
+            "map": true,
+            "ap_water": false,
+            "bc_water": false
+        } ,{
+            "login_id": "18623314926",
+            "password": "qq2694868",
+            "status": 7,
+            "host": "game1-CBT.ma.sdo.com:10001",
+            "lick": true,
+            "lick_more": false,
+            "lick_card_post": "C=%2BWwp3F%2FSMhZuMsdiJzlpQvMZ4wec8mTBOHHdwMRt9VcQCOhH2TansQXoPfUBP2hDjHuvD7S9Qqn%2B%0Alz437awUfcgm7rhc563e3n0eZQKziFo%3D%0A&lr=Az%2B03EkhVk5r%2FypDPSgt7g%3D%3D%0A",
+            "bolo": false,
+            "bolo_card_post": "C=A9rHKiwvDFgjz5y75FDUGQ4zKSLOuZ1BCo4wr33fTgAQCOhH2TansQXoPfUBP2hDjHuvD7S9Qqn%2B%0Alz437awUffMZ4wec8mTBOHHdwMRt9Vd71YlWf2A%2BbfMUGSyCMMdC%0A&lr=667pyi0WGwrXrihsgmSOMg%3D%3D%0A",
+            "friend_battle": true,
+            "friend_battle_card_post": "C=6im21eGb5g33I9O%2Bz1c%2FVD7OpI2p%2FrQKvjqAxiEVz1%2FHOGvWF10MZHbPBHC7Jg1QZAYkDH7v0n9Y%0A%2FboRFRm9k83hsHZFRs%2ByfEqapAl7vSI%3D%0A&lr=M3ITwoz28ceSOJs0p7yiUg%3D%3D%0A",
+            "map": true,
+            "ap_water": false,
+            "bc_water": false
+        },{
+            "login_id": "13023751921",
+            "password": "19870811",
+            "status": 7,
+            "host": "game1-CBT.ma.sdo.com:10001",
+            "lick": true,
+            "lick_awaken_only": true,
+            "lick_more": false,
+            "lick_card_post": "C=gE%2FA93ueRWVbcbr0pK9%2FmT7OpI2p%2FrQKvjqAxiEVz1%2FHOGvWF10MZHbPBHC7Jg1QZAYkDH7v0n9Y%0A%2FboRFRm9k83hsHZFRs%2ByfEqapAl7vSI%3D%0A&lr=vkeP2ytQgVQJXZy8HaZnRw%3D%3D%0A",
+            "bolo": false,
+            "bolo_card_post": "C=P2TuBnULmUIet9Dbi1c%2FtgM6kwvtIB7XO%2BBGzCA10lnHOGvWF10MZHbPBHC7Jg1QZAYkDH7v0n9Y%0A%2FboRFRm9kz7OpI2p%2FrQKvjqAxiEVz1%2FOhFcPcsT%2FRk7locCZDQT1%0A&lr=N4VMZh7vqrAnSu6d0kjO3Q%3D%3D%0A",
+            "friend_battle": true,
+            "friend_battle_card_post": "C=ED9aRisExAxxJ5wb6Zbvnz7OpI2p%2FrQKvjqAxiEVz1%2FHOGvWF10MZHbPBHC7Jg1QZAYkDH7v0n9Y%0A%2FboRFRm9k83hsHZFRs%2ByfEqapAl7vSI%3D%0A&lr=VFq0cNTNE7PkCMJh0bjKww%3D%3D%0A",
+            "map": true,
+            "change_map": true,
+            "ap_water": false,
+            "bc_water": false
+        }
+
     ]
 }
