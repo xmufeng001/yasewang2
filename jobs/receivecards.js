@@ -34,7 +34,7 @@ var getUserByLoginId=function(login_Id){
 
 var userConfList=getAllUserConf();
 userConfList.forEach(function(userConf) {
-    if(userConf["login_id"]=="18918188901"){
+    if(userConf["login_id"]=="15820263794"){
         receivecards.startReceivecards(userConf);
     }
 });

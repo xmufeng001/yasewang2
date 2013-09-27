@@ -144,7 +144,7 @@ var startJob = function (userConf, startTime, timeOutMinutes, onTimeOut) {
                     console.error(err);
                 });
 
-            }, 77000);
+            }, 27000);
         }
     ], function (err, result) {
         console.error(error);
